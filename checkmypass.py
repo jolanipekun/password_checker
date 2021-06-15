@@ -8,7 +8,7 @@ def request_api_data(query_char):
     # 'CBFDA'
     res = requests.get(url)
     if res.status_code != 200:
-        raise RuntimeError(f'Error fetching: {res.status_code}, check the api and try again')
+        raise RuntimeError(f'Error fetching: {res.status_code}, check the api and try again please.')
     return res
 
 
